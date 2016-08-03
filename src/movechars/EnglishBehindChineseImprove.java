@@ -47,7 +47,7 @@ public class EnglishBehindChineseImprove {
                         break;
                     }
                 }
-                chiSB.append(" ").append(engSB).append("\n");
+                chiSB.append(engSB).append("\n");
                 writer.write(chiSB.toString());
                 System.out.println("转换结果是：" + chiSB.toString());
                 line++;
